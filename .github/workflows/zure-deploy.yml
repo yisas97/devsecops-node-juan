@@ -2,9 +2,9 @@ name: 🚀 DevSecOps Pipeline - Node.js Azure Deployment
 
 on:
   push:
-    branches: [ main, develop ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 env:
   AZURE_WEBAPP_NAME: 'devsecops-05291918'
